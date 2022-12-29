@@ -1,0 +1,1 @@
+python train.py --nEpochs 20 --lr 2e-4 --trainImgDir /ssd_scratch/cvit/shaon/forms_train_org --kernelSize 7 --imgSize 448 --batchSize 5 --outDir /ssd_scratch/cvit/shaon/form_stage1 --lambda-match 0.0 --mu-cycle 0.0 --grad 0.0  --trainMode flow --margin 88 NoVal --valImgDir ""  --valCSV ""  --inPklCoarse "" --epochSaveModel 11
